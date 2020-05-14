@@ -1,0 +1,23 @@
+c_compiler:
+- gcc
+c_compiler_version:
+- '7'
+channel_sources:
+- ramonaoptics,conda-forge,defaults
+channel_targets:
+- ramonaoptics main
+docker_image:
+- condaforge/linux-anvil-comp7
+krb5:
+- '1.16'
+libevent:
+- 2.1.10
+ncurses:
+- '6.1'
+pin_run_as_build:
+  krb5:
+    max_pin: x.x
+  libevent:
+    max_pin: x.x.x
+  ncurses:
+    max_pin: x.x
